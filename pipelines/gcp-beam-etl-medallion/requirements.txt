@@ -1,0 +1,4 @@
+apache-beam[gcp]
+pandas
+google-cloud-bigquery
+google-cloud-storage

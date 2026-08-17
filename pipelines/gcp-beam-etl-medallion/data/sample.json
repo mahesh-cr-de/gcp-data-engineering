@@ -1,0 +1,3 @@
+{"id": "1", "timestamp": "2026-06-01T10:00:00", "amount": "150.5", "category": "electronics"}
+{"id": "2", "timestamp": "2026-06-01T11:00:00", "amount": "75.0", "category": "clothing"}
+{"id": "1", "timestamp": "2026-06-01T10:00:00", "amount": "150.5", "category": "electronics"}  # duplicate for testing
