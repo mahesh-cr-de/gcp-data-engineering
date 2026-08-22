@@ -37,10 +37,12 @@ Content is delivered incrementally, two topics per batch, in this order:
 
 ## Diagram sources
 
-Every `diagrams/` folder contains the **Python scripts** (`sketch_*.py`,
-using `assets/sketch_lib.py`, a matplotlib/xkcd-based sketch-diagram helper)
-used to regenerate the hand-sketched PNGs, so diagrams stay editable and
-reproducible — just run `python3 diagrams/sketch_<name>.py`.
+Newer topics' `diagrams/` folders (05, 06, and onward) contain the
+**Python scripts** (`sketch_*.py`, using `assets/sketch_lib.py`, a
+matplotlib/xkcd-based sketch-diagram helper) used to regenerate the
+hand-sketched PNGs, so diagrams stay editable and reproducible — just run
+`python3 diagrams/sketch_<name>.py`. Topics 01–04 predate this convention
+and ship PNGs only.
 
 Mermaid diagrams live inline inside each topic's `README.md` — GitHub, GitLab,
 and most modern Markdown viewers render these automatically with no extra

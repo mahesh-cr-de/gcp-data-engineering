@@ -8,9 +8,9 @@ A growing collection of my answers, talking points, and diagrams for cloud and a
 cloud-ai-interview-prep/
 ├── README.md
 └── questions/
-    └── 01-agentic-ai-architecture/
+    └── NN-example-question/
         ├── question.md          # the question, cloud-agnostic
-        ├── cloud-mapping.md     # Azure ↔ GCP service mapping for this question
+        ├── cloud-mapping.md     # Azure ↔ GCP service mapping, if answered for multiple clouds
         ├── azure/
         │   ├── full-answer.md
         │   ├── talking-points.md
@@ -43,5 +43,5 @@ The architecture is usually the same regardless of cloud — only the native ser
 
 | # | Question | Clouds answered | Topics |
 |---|----------|------------------|--------|
-| 01 | [Architecting an enterprise-grade agentic AI system](questions/01-agentic-ai-architecture/question.md) | [Azure](questions/01-agentic-ai-architecture/azure/full-answer.md), [GCP](questions/01-agentic-ai-architecture/gcp/full-answer.md) | MCP, semantic layer, identity pass-through, cost/rate control |
+| 01 | [Architecting an enterprise-grade agentic AI system](questions/01-agentic-ai-architecture/question.md) | [GCP](questions/01-agentic-ai-architecture/gcp/full-answer.md) (+ [Azure mapping](questions/01-agentic-ai-architecture/cloud-mapping.md)) | MCP, semantic layer, identity pass-through, cost/rate control |
 | 02 | [Enterprise Conversational Analytics](questions/02-enterprise-conversational-analytics/question.md) | [GCP](questions/02-enterprise-conversational-analytics/gcp/full-answer.md) | Vertex AI Agent, BigQuery, governance, cost control, MCP |

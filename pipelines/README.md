@@ -45,13 +45,12 @@ gcp-data-engineering-examples/
 ├── cloud-function-bq-to-gcs-sftp/
 │   ├── cloud_function.md          # Setup and deployment guide
 │   ├── main.py                    # Cloud Function code
-│   ├── requirements.txt           # Python dependencies
-│   └── README.md                  # Example-specific documentation
+│   └── requirements.txt           # Python dependencies
 ├── gcp-beam-etl-medallion/
 │   ├── gcp-beam-etl-medallion.md  # Detailed architecture guide
 │   ├── requirements.txt           # Python dependencies
 │   ├── data/
-│   │   └── sample.jsonl           # Sample input data with duplicates
+│   │   └── sample.json            # Sample input data with duplicates
 │   ├── pipeline/
 │   │   ├── __init__.py
 │   │   └── main.py                # Core Beam pipeline implementation
